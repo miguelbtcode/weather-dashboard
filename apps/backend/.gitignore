@@ -1,0 +1,11 @@
+## Azure Functions
+local.settings.json
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.cache
+.DS_Store
+Thumbs.db

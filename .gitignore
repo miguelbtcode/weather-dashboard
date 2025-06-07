@@ -1,0 +1,82 @@
+# Weather Dashboard Monorepo - Root .gitignore
+
+# Environment files (global)
+.env
+.env.local
+.env.production
+.env.staging
+*.env.backup
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE and Editor files
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs (global level)
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.npm
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Dependencies (only root level)
+node_modules/
+
+# Temporary folders
+tmp/
+temp/
+
+# Azure specific (deployment artifacts)
+.azure/
+*.zip
+*.tar.gz
+
+# Docker
+.docker/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Documentation builds
+_site/
+.sass-cache/
+
+# Local configuration overrides
+*.local.json
+local.settings.json
+
+# Build artifacts (global)
+dist/
+build/
+out/
+
+# Package files
+*.tgz
+*.tar.gz
